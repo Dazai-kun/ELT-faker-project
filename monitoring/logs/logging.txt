@@ -1,0 +1,598 @@
+
+2024-05-20 13:13:30,932 - ETLPipeline.utils.logger - INFO - Started
+2024-05-20 13:13:31,186 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-05-20 13:13:31,330 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-05-20 13:13:31,331 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-05-20 13:13:31,400 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-05-20 13:13:31,445 - ETLPipeline.utils.logger - INFO - Started
+2024-05-20 13:13:31,504 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-05-20 13:13:31,540 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-05-20 13:13:31,589 - ETLPipeline.utils.logger - INFO - Started
+2024-05-20 13:13:31,590 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-05-20 13:13:31,618 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,621 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,624 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,624 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,625 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,626 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,627 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,627 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,628 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,628 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,629 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,630 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,631 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,631 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,632 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 13:13:31,632 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 13:13:31,634 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:27,841 - ETLPipeline.utils.logger - INFO - Started
+2024-05-20 14:02:28,099 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-05-20 14:02:28,190 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-05-20 14:02:28,190 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-05-20 14:02:28,260 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-05-20 14:02:28,307 - ETLPipeline.utils.logger - INFO - Started
+2024-05-20 14:02:28,375 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-05-20 14:02:28,418 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-05-20 14:02:28,464 - ETLPipeline.utils.logger - INFO - Started
+2024-05-20 14:02:28,465 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-05-20 14:02:28,494 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,497 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,499 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,500 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,502 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,503 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,505 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,506 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,508 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,509 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,510 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,511 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,512 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-05-20 14:02:28,512 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-05-20 14:02:28,513 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:34:39,381 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:39:04,124 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:39:04,176 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:39:04,270 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-01 18:39:04,302 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-01 18:39:04,368 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:39:04,369 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-01 18:41:59,537 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:41:59,603 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:41:59,620 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-01 18:41:59,640 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-01 18:41:59,693 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:41:59,694 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-01 18:41:59,711 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,713 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,714 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,716 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,718 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,719 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,721 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,721 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,723 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,724 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,725 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,726 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,728 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,729 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,731 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:41:59,732 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:41:59,733 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,128 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:43:48,221 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-01 18:43:48,265 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-01 18:43:48,266 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-01 18:43:48,296 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-01 18:43:48,362 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:43:48,376 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-01 18:43:48,392 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-01 18:43:48,469 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:43:48,470 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-01 18:43:48,486 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,487 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,489 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,490 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,492 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,493 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,495 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,497 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,499 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,501 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,502 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,503 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,505 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,507 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,508 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:43:48,509 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:43:48,511 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:45:01,559 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:45:01,640 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-01 18:45:01,682 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-01 18:45:01,682 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-01 18:45:01,711 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-01 18:45:01,772 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:45:01,785 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-01 18:45:01,798 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-01 18:45:01,846 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:45:01,847 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-01 18:45:01,860 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:45:01,861 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:45:01,862 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:45:01,863 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:45:01,864 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:45:01,865 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:45:01,866 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:45:01,866 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:45:01,868 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:45:01,868 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:45:01,870 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:01,952 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:46:02,036 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-01 18:46:02,088 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-01 18:46:02,088 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-01 18:46:02,120 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-01 18:46:02,195 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:46:02,207 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-01 18:46:02,221 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-01 18:46:02,271 - ETLPipeline.utils.logger - INFO - Started
+2024-06-01 18:46:02,272 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-01 18:46:02,287 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,288 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,289 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,290 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,291 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,292 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,293 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,294 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,295 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,296 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,297 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,297 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,299 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-01 18:46:02,299 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-01 18:46:02,301 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:01,452 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 15:00:01,732 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-02 15:00:01,806 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-02 15:00:01,806 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-02 15:00:01,840 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-02 15:00:01,903 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 15:00:01,918 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-02 15:00:01,936 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-02 15:00:01,985 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 15:00:01,986 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-02 15:00:02,005 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,007 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,008 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,009 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,011 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,011 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,012 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,013 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,014 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,015 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,016 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,019 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,020 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,021 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,022 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,022 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,024 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,025 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,026 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 15:00:02,026 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 15:00:02,028 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,514 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 16:00:01,674 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-02 16:00:01,737 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-02 16:00:01,737 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-02 16:00:01,771 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-02 16:00:01,842 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 16:00:01,854 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-02 16:00:01,870 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-02 16:00:01,917 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 16:00:01,918 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-02 16:00:01,934 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,936 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,938 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,938 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,940 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,941 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,942 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,943 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,944 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,945 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,946 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,947 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,949 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,950 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,951 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 16:00:01,952 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 16:00:01,953 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:01,869 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 17:00:02,068 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-02 17:00:02,122 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-02 17:00:02,122 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-02 17:00:02,160 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-02 17:00:02,224 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 17:00:02,241 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-02 17:00:02,256 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-02 17:00:02,307 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 17:00:02,308 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-02 17:00:02,326 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,328 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,329 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,331 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,332 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,333 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,335 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,335 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,337 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,338 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,339 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,340 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,344 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,345 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,347 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 17:00:02,347 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 17:00:02,349 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:01,442 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 18:00:01,872 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-02 18:00:01,970 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-02 18:00:01,971 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-02 18:00:02,021 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-02 18:00:02,113 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 18:00:02,133 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-02 18:00:02,157 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-02 18:00:02,222 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 18:00:02,223 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-02 18:00:02,256 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,299 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,302 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,303 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,305 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,307 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,309 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,310 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,313 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,315 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,318 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,319 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,321 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 18:00:02,323 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 18:00:02,344 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:01,400 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 19:00:01,776 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-02 19:00:01,863 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-02 19:00:01,863 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-02 19:00:01,902 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-02 19:00:01,973 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 19:00:01,987 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-02 19:00:02,006 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-02 19:00:02,057 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 19:00:02,058 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-02 19:00:02,081 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,085 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,086 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,087 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,089 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,090 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,092 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,092 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,094 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,094 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,096 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,096 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,097 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,098 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,099 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,100 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,102 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 19:00:02,102 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 19:00:02,104 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,043 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 20:00:02,250 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-02 20:00:02,314 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-02 20:00:02,314 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-02 20:00:02,348 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-02 20:00:02,404 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 20:00:02,417 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-02 20:00:02,431 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-02 20:00:02,480 - ETLPipeline.utils.logger - INFO - Started
+2024-06-02 20:00:02,481 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-02 20:00:02,498 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,500 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 20:00:02,502 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,503 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 20:00:02,504 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,505 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 20:00:02,506 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,507 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 20:00:02,508 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,509 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 20:00:02,511 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-02 20:00:02,512 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-02 20:00:02,514 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 00:00:01,696 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 00:00:02,001 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 00:00:02,070 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 00:00:02,071 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-04 16:00:02,016 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 16:00:02,400 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 16:00:02,450 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 16:00:02,451 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-04 17:00:01,713 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 17:00:02,090 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 17:00:02,144 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 17:00:02,145 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-04 18:00:01,657 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 18:00:02,104 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-04 18:00:02,261 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 18:00:02,280 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-04 18:00:02,296 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-04 18:00:02,347 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 18:00:02,348 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-04 18:00:02,373 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,376 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,378 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,379 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,380 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,381 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,382 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,383 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,384 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,387 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,389 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,390 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,392 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,393 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,395 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 18:00:02,396 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 18:00:02,398 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:01,590 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 19:00:02,225 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-04 19:00:02,337 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-04 19:00:02,337 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-04 19:00:02,386 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-04 19:00:02,463 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 19:00:02,485 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-04 19:00:02,515 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-04 19:00:02,611 - ETLPipeline.utils.logger - INFO - Started
+2024-06-04 19:00:02,613 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-04 19:00:02,660 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,668 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,671 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,672 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,674 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,676 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,678 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,680 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,683 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,684 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,687 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,688 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,690 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,691 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,693 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,694 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,696 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,697 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,699 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-04 19:00:02,700 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-04 19:00:02,702 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,315 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 15:00:01,507 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-05 15:00:01,605 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-05 15:00:01,606 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-05 15:00:01,649 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-05 15:00:01,718 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 15:00:01,732 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-05 15:00:01,753 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-05 15:00:01,811 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 15:00:01,812 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 15:00:01,828 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,832 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,834 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,835 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,837 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,838 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,840 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,841 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,843 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,844 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,846 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,847 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,849 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,850 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,852 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,853 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,855 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,857 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,859 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 15:00:01,861 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 15:00:01,863 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 16:00:02,130 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 16:00:02,647 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-05 16:00:02,827 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-05 16:00:02,828 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-05 16:00:02,910 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-05 16:00:03,005 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 16:00:03,022 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-05 16:00:03,050 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-05 16:00:03,115 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 16:00:03,116 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 16:00:03,145 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 16:00:03,150 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 16:00:03,152 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 16:00:03,153 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 16:00:03,155 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 16:00:03,157 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 16:00:03,158 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 16:00:03,159 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 16:00:03,161 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 16:00:03,162 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 16:00:03,164 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 17:00:02,331 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 17:00:02,777 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-05 17:00:02,902 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-05 17:00:02,902 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-05 17:00:02,952 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-05 17:00:03,032 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 17:00:03,050 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-05 17:00:03,078 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-05 17:00:03,138 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 17:00:03,141 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 17:00:03,175 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 17:00:03,179 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 17:00:03,181 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 17:00:03,182 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 17:00:03,185 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 17:00:03,186 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 17:00:03,188 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 17:00:03,189 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 17:00:03,191 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 17:00:03,192 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 17:00:03,194 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 19:00:01,899 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 19:00:02,346 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 19:00:02,403 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 19:00:02,404 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 20:00:01,868 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 20:00:02,685 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 20:00:02,846 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 20:00:02,849 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 21:00:02,025 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 21:00:02,529 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 21:00:02,618 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 21:00:02,622 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 22:00:01,520 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 22:00:01,773 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 22:00:01,832 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 22:00:01,833 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 23:00:01,771 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 23:00:02,043 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-05 23:00:02,208 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-05 23:00:02,209 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-05 23:00:02,316 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-05 23:00:02,408 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 23:00:02,430 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-05 23:00:02,457 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-05 23:00:02,528 - ETLPipeline.utils.logger - INFO - Started
+2024-06-05 23:00:02,529 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-05 23:00:02,567 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,573 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,576 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,578 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,580 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,581 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,583 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,584 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,586 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,588 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,591 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,592 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,595 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,596 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,599 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,600 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,602 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,603 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,606 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-05 23:00:02,607 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-05 23:00:02,610 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 01:00:02,154 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 01:00:04,160 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-06 01:00:05,086 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 01:00:05,154 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-06 01:00:05,245 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-06 01:00:05,843 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 01:00:05,849 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-06 01:00:05,944 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 01:00:05,956 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 01:00:05,964 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 01:00:05,970 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 01:00:05,978 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 01:00:05,982 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 01:00:05,991 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 01:00:05,996 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 01:00:06,004 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 01:00:06,009 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 01:00:06,015 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:01,583 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 15:00:01,915 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-06 15:00:02,018 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-06 15:00:02,018 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-06 15:00:02,062 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-06 15:00:02,134 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 15:00:02,149 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-06 15:00:02,168 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-06 15:00:02,216 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 15:00:02,217 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-06 15:00:02,242 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,247 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,248 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,249 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,251 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,252 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,253 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,254 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,255 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,256 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,258 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,260 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,261 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,262 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,264 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 15:00:02,266 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 15:00:02,268 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,241 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 16:00:01,481 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-06 16:00:01,576 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-06 16:00:01,577 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-06 16:00:01,629 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-06 16:00:01,693 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 16:00:01,711 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-06 16:00:01,728 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-06 16:00:01,777 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 16:00:01,779 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-06 16:00:01,801 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,804 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 16:00:01,806 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,807 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 16:00:01,809 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,809 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 16:00:01,811 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,812 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 16:00:01,814 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,815 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 16:00:01,817 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 16:00:01,818 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 16:00:01,820 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 17:00:01,776 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 17:00:02,124 - ETLPipeline.utils.logger - INFO - Start to update users email...
+2024-06-06 17:00:02,241 - ETLPipeline.utils.logger - INFO - User email is updated!
+2024-06-06 17:00:02,242 - ETLPipeline.utils.logger - INFO - Start to generate new users...
+2024-06-06 17:00:02,294 - ETLPipeline.utils.logger - INFO - New users are inserted!
+2024-06-06 17:00:02,363 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 17:00:02,381 - ETLPipeline.utils.logger - INFO - Start to update products unit price...
+2024-06-06 17:00:02,395 - ETLPipeline.utils.logger - INFO - Product unit price is updated!
+2024-06-06 17:00:02,445 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 17:00:02,446 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-06 17:00:02,475 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 17:00:02,479 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 17:00:02,481 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 17:00:02,483 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 17:00:02,484 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 17:00:02,485 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 17:00:02,486 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 17:00:02,487 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 17:00:02,488 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 17:00:02,489 - ETLPipeline.utils.logger - INFO - New transaction_detail is inserted!
+2024-06-06 17:00:02,490 - ETLPipeline.utils.logger - INFO - New transaction is inserted!
+2024-06-06 21:00:01,252 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 21:00:01,454 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 21:00:01,503 - ETLPipeline.utils.logger - INFO - Started
+2024-06-06 21:00:01,504 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
