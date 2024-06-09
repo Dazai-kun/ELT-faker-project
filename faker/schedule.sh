@@ -5,6 +5,6 @@ cd /home/huymonkey/on-premise-data-pipeline
 source .venv/bin/activate
 
 echo "Start to generate data"
-python /home/huymonkey/on-premise-data-pipeline/faker/UserGenerator.py >> /home/huymonkey/on-premise-data-pipeline/monitoring/logs/user_logs.txt
-python /home/huymonkey/on-premise-data-pipeline/faker/ProductGenerator.py >> /home/huymonkey/on-premise-data-pipeline/monitoring/logs/product_logs.txt
-python /home/huymonkey/on-premise-data-pipeline/faker/TransactionGenerator.py >> /home/huymonkey/on-premise-data-pipeline/monitoring/logs/transaction_logs.txt
+python /home/admin/my-first-elt-project/faker/UserGenerator.py >> home/admin/my-first-elt-project/monitoring/logs/user_logs.txt
+python /home/admin/my-first-elt-project/faker/ProductGenerator.py >> home/admin/my-first-elt-project/monitoring/logs/product_logs.txt
+python home/admin/my-first-elt-project/faker/TransactionGenerator.py >> home/admin/my-first-elt-project/monitoring/logs/transaction_logs.txt

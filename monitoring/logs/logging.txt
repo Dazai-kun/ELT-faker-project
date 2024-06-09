@@ -596,3 +596,4 @@
 2024-06-06 21:00:01,454 - ETLPipeline.utils.logger - INFO - Started
 2024-06-06 21:00:01,503 - ETLPipeline.utils.logger - INFO - Started
 2024-06-06 21:00:01,504 - ETLPipeline.utils.logger - INFO - Start to generate new transactions...
+2024-06-09 11:04:27,546 - ETLPipeline.utils.logger - INFO - Started

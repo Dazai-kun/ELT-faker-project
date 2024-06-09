@@ -9,7 +9,7 @@ handler = logging.StreamHandler()
 handler.setLevel(logging.DEBUG)
 
 # Create a handler to specify where to log the messages (file in this case)
-fileHandler = logging.FileHandler('/home/huymonkey/on-premise-data-pipeline/monitoring/logs/logging.txt')
+fileHandler = logging.FileHandler('/home/admin/my-first-elt-project/monitoring/logs/logging.txt')
 fileHandler.setLevel(logging.INFO)
 
 # Create a formatter to specify the format of the messages

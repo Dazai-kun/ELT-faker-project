@@ -2,17 +2,16 @@ Metadata-Version: 2.1
 Name: ETLPipeline
 Version: 0.1.0
 Summary: ETL pipeline source code
-Home-page: UNKNOWN
 Author: huy-kun
 Author-email: ngogiahuy201202@gmail.com
-License: UNKNOWN
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: psycopg2-binary==2.9.9
+Requires-Dist: pandas==2.2.2
+Requires-Dist: faker==25.3.0
 
 # on-premise-data-pipeline
-
