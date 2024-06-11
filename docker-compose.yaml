@@ -17,7 +17,7 @@ services:
       - default
   
   #Postgres DB
-  oltb-db:
+  oltp-db:
     image: postgres:15
     container_name: oltp_db
     ports:

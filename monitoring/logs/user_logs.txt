@@ -16,3 +16,8 @@ There are 37 updated users and their ids: ['LY8571', 'IJ0664', 'LD3463', 'LK6841
 There are 31 updated users and their ids: ['XY1065', 'DI9615', 'MZ6315', 'QQ0808', 'LW5167', 'QV5989', 'TU4540', 'GU6434', 'GX7211', 'XH9053', 'YV1714', 'YL7995', 'BB7042', 'PG1760', 'KB6353', 'DO3686', 'QU7860', 'NA3783', 'GZ1382', 'TW3420', 'SV8567', 'WT4115', 'OX6296', 'PN0688', 'RJ7384', 'ZF2218', 'CG0756', 'TO1808', 'EK7655', 'NF1269', 'JN7862']
 There are 45 updated users and their ids: ['EG2610', 'VV9886', 'JQ5106', 'CV2206', 'IZ6732', 'MJ0662', 'JI2092', 'ME6336', 'CG4001', 'ZO1792', 'QT5848', 'GL1721', 'SY7678', 'SB7666', 'YG2953', 'DF8322', 'DI9615', 'WW6048', 'OL0302', 'SE7787', 'JO6907', 'OG1908', 'LB0878', 'OV8849', 'LJ4334', 'GT9653', 'KW7017', 'SQ0741', 'HQ0892', 'KV2264', 'TW3420', 'JO9606', 'IJ0664', 'PF1965', 'XZ7802', 'FH0561', 'ZU5994', 'CQ1539', 'TS4105', 'LW5167', 'JH4555', 'OX3368', 'PN9331', 'BR2618', 'EE7827']
 There are 49 updated users and their ids: ['NQ2138', 'SL7924', 'QW5196', 'MP0626', 'DW9402', 'ZO1792', 'FB5136', 'VF7968', 'BA1833', 'SS3038', 'DS8550', 'IF7920', 'NT2156', 'MQ9763', 'LW5167', 'JU5501', 'BV6621', 'UP0728', 'DC0178', 'NT4888', 'IZ6732', 'YL7995', 'RX2342', 'CO9056', 'FV9913', 'AX6103', 'BR2026', 'QE8274', 'HU2436', 'FM9562', 'QO1421', 'EE7827', 'IB7755', 'NB5880', 'PE5427', 'FN0558', 'LD0976', 'OG1908', 'HD0116', 'WE3366', 'WS4471', 'LE3000', 'MO7866', 'IR0500', 'OB7261', 'NF1269', 'XZ7802', 'PA7256', 'CA3616']
+There are 0 updated users and their ids: []
+There are 0 updated users and their ids: []
+There are 0 updated users and their ids: []
+There are 0 updated users and their ids: []
+There are 9 updated users and their ids: ['EO9027', 'FQ8056', 'OL0302', 'TT9047', 'ZO1792', 'BB7042', 'WY7444', 'DG2348', 'NJ0686']

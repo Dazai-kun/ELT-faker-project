@@ -19,6 +19,7 @@ tbl_list = ['users', 'products', 'transactions', 'transaction_detail']
 
 
 # Define time variables
+current_dt = datetime.now()
 prev_dt_string = datetime.now() - timedelta(days=1)
 full_date = prev_dt_string.strftime("%d%m%Y%H%M%S")
 year = prev_dt_string.strftime("%Y")

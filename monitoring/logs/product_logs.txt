@@ -20,3 +20,8 @@ There are 3 updated products and their ids: ['BK-T18Y-44', 'BK-R79Y-40', 'RB-923
 There are 3 updated products and their ids: ['FD-2342', 'BK-T18Y-62', 'SO-B909-M']
 There are 3 updated products and their ids: ['BK-R68R-52', 'BK-M82B-38', 'FW-T905']
 There are 2 updated products and their ids: ['BK-R68R-44', 'BK-R89R-44']
+There are 0 updated products and their ids: []
+There are 0 updated products and their ids: []
+There are 0 updated products and their ids: []
+There are 0 updated products and their ids: []
+There are 2 updated products and their ids: ['FR-M63S-46', 'FR-T67Y-62']
