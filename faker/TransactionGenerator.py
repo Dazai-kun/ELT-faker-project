@@ -52,7 +52,7 @@ class TransactionGenerator(FakerGeneratorInterface):
                     record = (transaction_id, product_id, quantity, total_amount_for_each_product)
                     transaction_detail_records.append(str(record))
                 total_amount = sum(total_amount_list)
-                cash_received = random.randint(round(total_amount, 0), round(total_amount + 100, 0))
+                cash_received = random.randint(int(round(total_amount, 0)), int(round(total_amount + 100, 0)))
                 change_due = cash_received - total_amount
                 cur.execute(f"SELECT id FROM {self.conn.database}.public.users ORDER BY RANDOM() LIMIT 1;")
                 user_id = cur.fetchone()[0]
