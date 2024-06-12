@@ -39,3 +39,4 @@ There are 3 updated products and their ids: ['SJ-0194-L', 'BK-M18S-52', 'GL-H102
 There are 3 updated products and their ids: ['BK-T44U-50', 'BK-M18S-44', 'FR-R72R-58']
 There are 2 updated products and their ids: ['SJ-0194-X', 'BK-T18U-58']
 There are 3 updated products and their ids: ['BK-R79Y-44', 'PU-M044', 'FR-M21B-40']
+There are 2 updated products and their ids: ['TI-M602', 'BK-T18U-44']
