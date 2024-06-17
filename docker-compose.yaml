@@ -50,6 +50,7 @@ services:
     volumes:
       - ./docker/db/duckdb:/app/superset_home/db
   
+
 networks:
   default:
     driver: bridge
