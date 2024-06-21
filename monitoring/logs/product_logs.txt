@@ -57,3 +57,5 @@ There are 3 updated products and their ids: ['TT-T092', 'SH-M897-M', 'SJ-0194-M'
 There are 2 updated products and their ids: ['TI-M602', 'FK-1639']
 There are 3 updated products and their ids: ['PU-M044', 'RW-T905', 'BK-R89R-58']
 There are 3 updated products and their ids: ['BK-R79Y-48', 'CL-9009', 'BK-T18U-58']
+There are 2 updated products and their ids: ['VE-C304-S', 'SH-M897-L']
+There are 3 updated products and their ids: ['SE-T312', 'TT-M928', 'HB-T721']
