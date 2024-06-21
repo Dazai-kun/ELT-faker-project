@@ -49,3 +49,7 @@ There are 10 new transactions and their ids: ['MI747942', 'FG418842', 'PJ425489'
 There are 10 new transactions and their ids: ['LC002397', 'CS427646', 'VC293041', 'JP857957', 'UK314094', 'CW855451', 'MS799158', 'JK572746', 'OF787543', 'WD073093']
 There are 9 new transactions and their ids: ['OR973883', 'IB846725', 'IJ639991', 'AL582514', 'HE013566', 'CW507105', 'MZ796812', 'VT181398', 'WA468787']
 There are 5 new transactions and their ids: ['CB300731', 'FF303234', 'SY942932', 'CR773747', 'UD229462']
+There are 5 new transactions and their ids: ['TO565707', 'GD102931', 'EV716018', 'VG019911', 'AY391431']
+There are 5 new transactions and their ids: ['EG077605', 'AH607742', 'UI852495', 'PI360758', 'QP180020']
+There are 7 new transactions and their ids: ['CV955093', 'FO514309', 'ML038025', 'JN566267', 'GK860704', 'TC291892', 'PI562758']
+There are 8 new transactions and their ids: ['NL350969', 'QE203837', 'QS139388', 'KF013468', 'OZ448863', 'WF965622', 'CJ155528', 'TZ251687']
