@@ -13,8 +13,6 @@ faulthandler.enable()
 def create_df_for_t1_day(table_name, client, bucket_name):
     df_t1 = pd.DataFrame()
     table = table_name
-    # for table in tbl_list:
-        # t1_dt_obj_list = client.list_objects(bucket_name=bucket_name, prefix=f'{bucket_name}/{table}/2024/06/08/')
     t1_dt_obj_list = client.list_objects(bucket_name=bucket_name, prefix=f'{bucket_name}/{table}/{prev_year}/{prev_month}/{prev_date}/')
     for obj in t1_dt_obj_list:            
         file_path = os.path.basename(obj.object_name)
@@ -87,43 +85,53 @@ def get_primary_key_columns(table_name, postgres_conn):
 
 
 def upsert_sql(df, table_name, conn, postgres_conn):
+    if df.empty:
+        print("The DataFrame is empty. No data to upsert.")
+        return
+    
     a = []
     changed_df = df
+    changed_tuple = changed_df.apply(tuple, 1)
     target_table_name = table_name
     temp_table = f"{table_name}_temporary_table"
     key_name = get_primary_key_columns(table_name, postgres_conn)
+    # unique_df = changed_df.drop_duplicates(subset=key_name, keep='last', inplace=True)
+    key_tuple = tuple(key_name)
+
+    key_key = f'"{key_tuple[0]}"'
     for col in changed_df.columns:
         if col in key_name:
             continue
         a.append(f'"{col}"=EXCLUDED."{col}"')
-    conn.execute(f"CREATE TEMP TABLE IF NOT EXISTS {temp_table} AS SELECT * FROM changed_df")
-    conn.execute(f"INSERT INTO {temp_table} SELECT * FROM changed_df")
-    
-    #df.to_sql(temp_table, engine, if_exists='replace', index=False) 
-    set_statement = ', '.join(a)
-    upsert_query = f"""
-    WITH primary_col_extract AS (
-        SELECT a.attname as key_name
-        FROM   pg_index i
-        JOIN   pg_attribute a ON a.attrelid = i.indrelid
-                            AND a.attnum = ANY(i.indkey)
-        WHERE  i.indrelid = {target_table_name}::regclass
-        AND    i.indisprimary
-    )
-    INSERT INTO {target_table_name} as tt 
-    SELECT * FROM {temp_table} as tmp
-    ON CONFLICT
-    DO UPDATE SET """
-    # combined_query = upsert_query
-    print(upsert_query + set_statement)
-    print(f"upsert to table {target_table_name} successfully")
-    conn.execute(upsert_query + set_statement)
-    
+    try:
+        conn.execute(f"CREATE TEMP TABLE IF NOT EXISTS {temp_table} AS SELECT * FROM changed_df")
+        # conn.execute(f"INSERT INTO {temp_table} SELECT * FROM _df")
+        set_statement = ', '.join(a)
+        upsert_query = f"""
+        WITH primary_col_extract AS (
+            SELECT a.attname as key_name
+            FROM   pg_index i
+            JOIN   pg_attribute a ON a.attrelid = i.indrelid
+                                AND a.attnum = ANY(i.indkey)
+            WHERE  i.indrelid = {target_table_name}::regclass
+            AND    i.indisprimary
+        )
+        INSERT INTO {target_table_name} as tt 
+        SELECT * FROM {temp_table} as tmp 
+        ON CONFLICT({key_key})
+        DO UPDATE SET """
+        print(upsert_query + set_statement)
+        conn.execute(upsert_query + set_statement)
+        print(f"upsert to table {target_table_name} successfully")
+    except Exception as e:
+        print(f"Error in upsert_sql: {e}")
 
+    
+# SELECT * FROM {temp_table} as tmp
 
 def create_fact_table(conn):
     conn.execute(""" CREATE TABLE IF NOT EXISTS facts (
-                        id VARCHAR(255) PRIMARY KEY,
+                        transaction_id VARCHAR(255) NOT NULL,
                         transaction_date TIMESTAMP NOT NULL,
                         total_amount FLOAT NOT NULL,
                         cash_received FLOAT NOT NULL,
@@ -143,20 +151,23 @@ def insert_into_facts(conn, tbl_list, client, bucket_name, postgres_conn):
     for t in tbl_list:
         if t in ['users', 'products']:
             change_df = create_df_for_changes(t, client, bucket_name)
+            print("this is the change_df: ",change_df)
             upsert_sql(change_df,t, conn, postgres_conn)
         
         elif t == 'transactions':
             trans_df = create_df_for_changes(t, client, bucket_name)
         elif t == 'transaction_detail':
             details_df = create_df_for_changes(t, client, bucket_name)
-            facts_df = pd.merge(details_df, trans_df, how='inner', on=[details_df['transaction_id'], trans_df['id']])
+            facts_df = trans_df.merge(details_df, how='inner',left_on='id',right_on='transaction_id')
             print('facts_df dataframe is: ', facts_df)
             conn.execute(""" INSERT INTO 
-                         facts(id,user_id,product_id,transaction_date,total_amount,item_amount,quantity,cash_received,change_due)
-                        SELECT id,user_id,product_id,transaction_date,fd.total_amount_x,fd.total_amount_y,quantity,cash_received,change_due 
-                         FROM facts_df fd
+                         facts(transaction_id,user_id,product_id,transaction_date,total_amount,item_amount,quantity,cash_received,change_due)
+                        SELECT transaction_id,user_id,product_id,transaction_date,fd.total_amount_x,fd.total_amount_y,quantity,cash_received,change_due 
+                         FROM facts_df fd WHERE user_id IN 
+                            (SELECT id FROM users WHERE created_at = 
+                         )
                     """)
-        return
+    return
 
 def elt_process(conn, client, tbl_list, postgres_conn):
     with open('/home/admin/my-first-elt-project/docker/db/oltp_schema.sql', 'r') as file:
@@ -169,18 +180,6 @@ def elt_process(conn, client, tbl_list, postgres_conn):
 
     
     
-    # for t in tbl_list:
-    #     if t in ['users', 'products']:
-    #         change_df = create_df_for_changes(t)
-    #         upsert_sql(change_df,t)
-        
-    #     elif t == 'transactions':
-    #         trans_df = create_df_for_changes(t)
-    #     elif t == 'transaction_detail':
-    #         details_df = create_df_for_changes(t)
-    #         facts = pd.merge(details_df, trans_df, how='inner', on=[details_df['transaction_id'], trans_df['id']])
-    #         print(facts)
-    #         insert_into_fact_table(facts)
     
 if __name__=='__main__':
         # ESTABLISH CONNECTIONS
@@ -196,10 +195,7 @@ if __name__=='__main__':
     client = Minio(endpoint="localhost:9000", access_key='a5926TSNVC2r9J4Y2Eqh', 
                 secret_key='3YBQqcerjz5TsV8X851gi3Rl7YNclYQ6UD1MrEPY', secure=False)
 
-    # engine = create_engine(
-    #     'postgresql+psycopg2://oltp:oltp@localhost:5432/oltp'
-    # )
-
+   
     #DEFINITIONS
     tbl_list = ['users', 'products', 'transactions', 'transaction_detail']
     bucket_name = 'snapshot'
