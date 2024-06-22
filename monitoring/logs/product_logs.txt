@@ -63,3 +63,5 @@ There are 4 updated products and their ids: ['RW-T905', 'BK-M47B-44', 'BC-R205',
 There are 3 updated products and their ids: ['FD-2342', 'BK-R89R-44', 'SO-R809-M']
 There are 3 updated products and their ids: ['BK-M47B-44', 'BK-T44U-46', 'FR-R72R-60']
 There are 3 updated products and their ids: ['BK-T79U-50', 'SE-M798', 'GL-H102-M']
+There are 3 updated products and their ids: ['BK-T18U-54', 'FR-M94B-48', 'BK-R68R-58']
+There are 3 updated products and their ids: ['FR-T67U-54', 'BK-T18U-50', 'BK-R89R-52']
