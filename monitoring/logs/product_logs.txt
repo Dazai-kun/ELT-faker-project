@@ -76,3 +76,5 @@ There are 4 updated products and their ids: ['FR-T67Y-44', 'TI-R628', 'HY-1023-7
 There are 2 updated products and their ids: ['FR-T67U-58', 'FR-M94B-44']
 There are 3 updated products and their ids: ['BK-T18Y-50', 'FR-M94S-44', 'BK-T79U-54']
 There are 2 updated products and their ids: ['SJ-0194-M', 'RW-T905']
+There are 2 updated products and their ids: ['TI-M267', 'BK-M82B-44']
+There are 3 updated products and their ids: ['PD-T852', 'BK-R93R-44', 'BK-M82B-44']
