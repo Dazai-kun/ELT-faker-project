@@ -160,15 +160,17 @@ def insert_into_facts(conn, tbl_list, client, bucket_name, postgres_conn):
             details_df = create_df_for_changes(t, client, bucket_name)
             facts_df = trans_df.merge(details_df, how='inner',left_on='id',right_on='transaction_id')
             print('facts_df dataframe is: ', facts_df)
-            conn.execute(""" INSERT INTO 
+            conn.execute(f""" INSERT INTO 
                          facts(transaction_id,user_id,product_id,transaction_date,total_amount,item_amount,quantity,cash_received,change_due)
                         SELECT transaction_id,user_id,product_id,transaction_date,fd.total_amount_x,fd.total_amount_y,quantity,cash_received,change_due 
-                         FROM facts_df fd WHERE user_id IN 
-                            (SELECT id FROM users WHERE created_at = 
-                         )
+                         FROM facts_df fd  
+                    
                     """)
     return
-
+# WHERE product_id IN 
+#                             (SELECT id FROM products) 
+#                             AND user_id IN (SELECT id FROM users) AND
+#                         transaction_id IN (SELECT id FROM transactions)
 def elt_process(conn, client, tbl_list, postgres_conn):
     with open('/home/admin/my-first-elt-project/docker/db/oltp_schema.sql', 'r') as file:
         sql_script = file.read()
@@ -192,8 +194,8 @@ if __name__=='__main__':
     conn = duckdb.connect('~/my-first-elt-project/docker/db/duckdb/duckdb_dw.duckdb')
 
     # Right here I need to put all these credentials into a seperate file
-    client = Minio(endpoint="localhost:9000", access_key='a5926TSNVC2r9J4Y2Eqh', 
-                secret_key='3YBQqcerjz5TsV8X851gi3Rl7YNclYQ6UD1MrEPY', secure=False)
+    client = Minio(endpoint="localhost:9000", access_key='jFESTreCHrpQqi3cZNmM', 
+                   secret_key='X44op0kaOaysolQvihUXd0dDvbqAiyAdfPSjOnS3', secure=False)
 
    
     #DEFINITIONS
@@ -214,6 +216,9 @@ if __name__=='__main__':
     prev_year = prev_dt_string.strftime("%Y") # prev_year means that the year that last day's data was on, not literally 'last year'
     prev_month = prev_dt_string.strftime("%m") # the same rule applies for prev_month and prev_date.
     prev_date = prev_dt_string.strftime("%d")
+
+    prev_date_format = prev_dt_string.strftime("%Y-%m-%d")
+
 
     #DEFINE T-2 DAY TIME VARIABLES
     t2_dt_string = prev_dt_string - timedelta(days=1)

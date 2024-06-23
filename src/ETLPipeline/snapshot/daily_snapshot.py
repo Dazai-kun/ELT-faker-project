@@ -6,7 +6,7 @@ import psycopg2
 from minio import Minio
 from datetime import datetime, timedelta
 
-client = Minio(endpoint="localhost:9000", access_key='a5926TSNVC2r9J4Y2Eqh', secret_key='3YBQqcerjz5TsV8X851gi3Rl7YNclYQ6UD1MrEPY', secure=False)
+client = Minio(endpoint="localhost:9000", access_key='jFESTreCHrpQqi3cZNmM', secret_key='X44op0kaOaysolQvihUXd0dDvbqAiyAdfPSjOnS3', secure=False)
 
 conn = psycopg2.connect(user="oltp",
                                   password="oltp",
